@@ -1,0 +1,64 @@
+﻿@model RegistrationTest20221221.Models.User.UserViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-controller="User" id="edit_form">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Password" />
+            <input type="hidden" asp-for="ConfirmPassword" />
+            <input type="hidden" asp-for="IsDeleted" />
+            <input type="hidden" asp-for="CreatedDate" />
+            <input type="hidden" asp-for="UpdatedDate" />
+            <div class="form-group">
+                <a asp-action="Index" class="btn btn-sm btn-outline-primary" asp-controller="User">Back to List</a>
+                <input type="submit" value="Save" class="btn btn-sm btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+<script type="text/javascript">
+    function confirmPassword() {
+        var password = $('#Password').val();
+        let btnCreate = document.getElementById('btnCreate');
+        var confirmPassword = $('#ConfirmPassword').val();
+        if (password != confirmPassword) {
+            document.getElementById("myspan").innerHTML = "Password and confirm password does not match";
+            btnCreate.disabled = true;
+        } else {
+            btnCreate.disabled = false;
+            document.getElementById("myspan").innerHTML = "";
+        }
+    }
+</script>
+}
