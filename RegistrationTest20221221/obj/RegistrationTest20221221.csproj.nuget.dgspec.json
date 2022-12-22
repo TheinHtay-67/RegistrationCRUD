@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DotNetProjects\\RegistrationTest20221221\\RegistrationTest20221221.csproj": {}
+    "D:\\DotNetProjects\\RegistrationCRUD\\RegistrationTest20221221\\RegistrationTest20221221.csproj": {}
   },
   "projects": {
-    "D:\\DotNetProjects\\RegistrationTest20221221\\RegistrationTest20221221.csproj": {
+    "D:\\DotNetProjects\\RegistrationCRUD\\RegistrationTest20221221\\RegistrationTest20221221.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNetProjects\\RegistrationTest20221221\\RegistrationTest20221221.csproj",
+        "projectUniqueName": "D:\\DotNetProjects\\RegistrationCRUD\\RegistrationTest20221221\\RegistrationTest20221221.csproj",
         "projectName": "RegistrationTest20221221",
-        "projectPath": "D:\\DotNetProjects\\RegistrationTest20221221\\RegistrationTest20221221.csproj",
+        "projectPath": "D:\\DotNetProjects\\RegistrationCRUD\\RegistrationTest20221221\\RegistrationTest20221221.csproj",
         "packagesPath": "C:\\Users\\MM-PC\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNetProjects\\RegistrationTest20221221\\obj\\",
+        "outputPath": "D:\\DotNetProjects\\RegistrationCRUD\\RegistrationTest20221221\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

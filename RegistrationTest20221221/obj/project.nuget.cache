@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lmWIMHlvANh+o/GYdi17TAYvmGJ4WUDZYjPm1vB2gSRr5gjstlSezP7shJqcsUztcP75diNg3BSgKJOhETocvw==",
+  "dgSpecHash": "jFESwuzXhG0WeF+2OMPyngMR5ZhGhmK+wOnzjiIhxX4BnkEkzAbG62jMLRb+Tu6uWvEd79zW0ExH8UMi0pmNwQ==",
   "success": true,
-  "projectFilePath": "D:\\DotNetProjects\\RegistrationTest20221221\\RegistrationTest20221221.csproj",
+  "projectFilePath": "D:\\DotNetProjects\\RegistrationCRUD\\RegistrationTest20221221\\RegistrationTest20221221.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MM-PC\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\MM-PC\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\1.1.2\\microsoft.aspnetcore.http.abstractions.1.1.2.nupkg.sha512",
