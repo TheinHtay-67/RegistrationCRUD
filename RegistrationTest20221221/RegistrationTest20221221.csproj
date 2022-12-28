@@ -5,13 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20221221151322_CreateUserTable20221221.cs" />
-    <Compile Remove="Migrations\20221221151322_CreateUserTable20221221.Designer.cs" />
-    <Compile Remove="Migrations\20221221162823_UpdateUserTable.cs" />
-    <Compile Remove="Migrations\20221221162823_UpdateUserTable.Designer.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http.Extensions" Version="1.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.12" />
@@ -20,6 +13,29 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\AdminLTE\css\adminlte.css.map" />
+    <None Include="wwwroot\AdminLTE\css\adminlte.min.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.components.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.components.min.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.core.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.core.min.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.extra-components.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.extra-components.min.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.pages.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.pages.min.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.plugins.css.map" />
+    <None Include="wwwroot\AdminLTE\css\alt\adminlte.plugins.min.css.map" />
+    <None Include="wwwroot\AdminLTE\js\adminlte.js" />
+    <None Include="wwwroot\AdminLTE\js\adminlte.js.map" />
+    <None Include="wwwroot\AdminLTE\js\adminlte.min.js" />
+    <None Include="wwwroot\AdminLTE\js\adminlte.min.js.map" />
+    <None Include="wwwroot\AdminLTE\js\demo.js" />
+    <None Include="wwwroot\AdminLTE\js\pages\dashboard.js" />
+    <None Include="wwwroot\AdminLTE\js\pages\dashboard2.js" />
+    <None Include="wwwroot\AdminLTE\js\pages\dashboard3.js" />
   </ItemGroup>
 
 </Project>

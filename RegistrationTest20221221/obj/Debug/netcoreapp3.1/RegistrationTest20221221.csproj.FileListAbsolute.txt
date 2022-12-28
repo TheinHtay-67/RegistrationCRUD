@@ -308,3 +308,6 @@ D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp
 D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp3.1\RegistrationTest20221221.dll
 D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp3.1\RegistrationTest20221221.pdb
 D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp3.1\RegistrationTest20221221.genruntimeconfig.cache
+D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLTELayout.cshtml.g.cs
+D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp3.1\Razor\Views\Student\Index.cshtml.g.cs
+D:\DotNetProjects\RegistrationCRUD\RegistrationTest20221221\obj\Debug\netcoreapp3.1\Razor\Views\Student\Create.cshtml.g.cs

@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RegistrationTest20221221.Models.Student;
 using RegistrationTest20221221.Models.User;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,6 @@ namespace RegistrationTest20221221.Context
         public DbSet<UserModel> Users { get; set; }
 
         public DbSet<RegistrationTest20221221.Models.User.UserViewModel> UserViewModel { get; set; }
+        public DbSet<StudentModel> Student { get; set; }
     }
 }
